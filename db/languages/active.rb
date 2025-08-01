@@ -224,10 +224,10 @@
   },
   {
     id: 72,
-    name: "Ruby (2.7.8)",
+    name: "Ruby (3.1)",
     is_archived: false,
     source_file: "script.rb",
-    run_cmd: "/usr/local/ruby-2.7.8/bin/ruby script.rb"
+    run_cmd: "/usr/bin/ruby script.rb"
   },
   {
     id: 74,
