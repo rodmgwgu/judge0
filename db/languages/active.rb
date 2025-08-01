@@ -56,10 +56,10 @@
   # },
   {
     id: 50,
-    name: "C (GCC 12.5)",
+    name: "C (GCC 12.5.0)",
     is_archived: false,
     source_file: "main.c",
-    compile_cmd: "/usr/local/gcc-12.5/bin/gcc %s main.c",
+    compile_cmd: "/usr/local/gcc-12.5.0/bin/gcc %s main.c",
     run_cmd: "./a.out"
   },
   # {
@@ -88,11 +88,11 @@
   # },
   {
     id: 54,
-    name: "C++ (GCC 12.5)",
+    name: "C++ (GCC 12.5.0)",
     is_archived: false,
     source_file: "main.cpp",
-    compile_cmd: "/usr/local/gcc-12.5/bin/g++ %s main.cpp",
-    run_cmd: "LD_LIBRARY_PATH=/usr/local/gcc-12.5/lib64 ./a.out"
+    compile_cmd: "/usr/local/gcc-12.5.0/bin/g++ %s main.cpp",
+    run_cmd: "LD_LIBRARY_PATH=/usr/local/gcc-12.5.0/lib64 ./a.out"
   },
   # {
   #   id: 55,
