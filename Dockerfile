@@ -43,10 +43,10 @@ RUN useradd -u 1000 -m -r judge0 && \
 
 USER judge0
 
-ENV JUDGE0_VERSION "1.14.0"
+ENV JUDGE0_VERSION "1.14.1"
 LABEL version=$JUDGE0_VERSION
 
 
-FROM production AS development
+# FROM production AS development
 
-CMD ["sleep", "infinity"]
+# CMD ["sleep", "infinity"]
